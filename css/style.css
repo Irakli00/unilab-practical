@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+                
+
 :root{
   --primary-blue: #003459; 
   --primary-blue-darker:#002A48;
@@ -12,3 +15,166 @@
   --secondary-yellow-lighter:#F1D092;
   --secondary-yellow-tint:#FCEED5;
 }
+
+html{
+  font-size: 62.5%;
+}
+
+article{
+  padding-inline: 130px;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'gilroy-bold';
+}
+
+a{
+  text-decoration: none;
+  color: var(--primary-blue-darker);
+}
+
+.nav--main-page{
+  position: static;
+  background-color: var(--secondary-yellow-tint);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 30px 130px;
+}
+
+.nav--links{
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  font-size: 1.6rem;
+  
+}
+
+.nav--join{
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+#join-btn{
+  background-color: var(--primary-blue);
+  color: var(--neutral-white);
+  font-weight: bolder;
+  padding: 13px 28px;
+  border-radius: 57px;
+  font-size: 1.6rem;
+}
+
+#select-language{
+  padding: 10px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+#select-language select{
+  background-color: transparent;
+  border: none;
+  color: var(--primary-blue);
+}
+
+/* absolute elements */
+.nav--links img{
+  position: relative;
+  z-index: 999;
+}
+
+.nav--links::after{
+  content: '';
+  position: absolute;
+  background-color: var(--secondary-yellow);
+  width: 635px;
+  height: 635px;
+  border-radius: 99px;
+
+  transform: rotate(25.23deg);
+  top:-590px;
+  left: -240px;
+}
+/*  */
+
+/* --------------- */
+
+.hero{
+  background-color: var(--secondary-yellow-tint);
+  display: grid;
+  grid-template-columns: 1fr 600px;
+  overflow: hidden;
+}
+
+.lady-and-dog{
+  transform: translatex(-220px);
+  z-index: 90000;
+  position: relative;
+}
+
+.hero--text{
+  padding-top: 80px;
+  color: var(--primary-blue-darker);
+}
+
+.hero--text h1{
+  font-size: 6rem;
+  line-height: 1.02;
+  position: relative;
+  z-index: 9999;
+}
+
+.hero--text h1 span{
+  font-size: 4.6rem;
+  font-weight:200;
+}
+
+/* absolute elements */
+
+.hero--text h1::before{
+  content: '';
+  height: 67px;
+  width: 67px;
+  background-color: var(--secondary-yellow);
+  position: absolute;
+  z-index: -1;
+  transform: rotate(25deg);
+  border-radius: 20px;
+  top:-12px;
+  left: -7px;
+}
+
+.lady-and-dog::after{
+  content: '';
+  height: 635px;
+  width: 635px;
+  background-color: var(--secondary-yellow);
+  position: absolute;
+  z-index: -1;
+  transform: rotate(25deg);
+  border-radius: 99px;
+  top: 200px;
+  right: -200px;
+}
+
+.lady-and-dog::before{
+  content: '';
+  height: 635px;
+  width: 635px;
+  background-color: var(--primary-blue);
+  position: absolute;
+  z-index: -1;
+  transform: rotate(9deg);
+  border-radius: 99px;
+  top: 260px;
+  right: -139px;
+  z-index: -1;
+}
+
+/*  */

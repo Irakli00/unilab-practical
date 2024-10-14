@@ -4,65 +4,228 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <nav>
-    <div>
+  <nav class="nav--main-page">
+    <div class="nav--links">
       <img src="../imgs/icons/Frame.svg" alt="monito logo">
       <a href="">Home</a>
       <a href="">Category</a>
       <a href="">Contact</a>
     </div>
-    <div>
-      <p>Join the community</p> <!--temp-->
-      <div>
-        <!-- <img src="../imgs/icons/flags/flag-vtnm.png" alt="vietnam flag"> -->
-        <label for="languageSelect"><img src="../imgs/icons/flags/flag-vtnm.png" alt=""></label>
+    <div class="nav--join">
+      <p id="join-btn">join the community</p> <!--temp-->
+      <div id="select-language">
+        <img src="../imgs/icons/flags/flag-vtnm.png" alt="">
         <select id="languageSelect">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="vietnam">VND</option>
+            <option value="english">ENG</option>
         </select>
       </div>
     </div>
   </nav>
 
-  <section>
-    <article class="hero">
-      <div>
-        <h1>One More Friend <br> Thousands More Fun!</h1>
-        <p>Having a pet means you have more joy, a new friend, a happy companion who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+  <main>
+    <section>
+      <article class="hero">
+        <div class="hero--text">
+          <h1>One More Friend <br><span>Thousands More Fun!</span> </h1>
+          <p>Having a pet means you have more joy, a new friend, a happy companion who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+          <div>
+            <div>
+              <button aria-label="View Introduction">View Intro <img src="../imgs/icons/Play_Circle.svg" alt="Play icon"></button>
+            </div>
+            <div>
+              <button>Explore Now</button>
+            </div>
+          </div>  
+        </div>
+        <div class="lady-and-dog">
+            <img src="../imgs/homepage/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated 1.png" alt="A good-humored woman laughing while holding a dog against a pink background" >
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article>
         <div>
-          <div>
-            <button aria-label="View Introduction">View Intro <img src="../imgs/icons/Play_Circle.svg" alt="Play icon"></button>
-          </div>
-          <div>
-            <button>Explore Now</button>
-          </div>
-        </div>  
-      </div>
-      <div>
-          <img src="../imgs/homepage/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated 1.png" alt="A good-humored woman laughing while holding a dog against a pink background">
-      </div>
-    </article>
-  </section>
+          <p>Whats new?</p>
+        </div>
+        <div>
+          <h4>Take A Look At Some Of Our Pets</h4>
+          <a href="">View more <img src="../imgs/icons/arrow.svg" alt="arrow pointing right"></a>
+        </div>
+      </article>
+      <article>
+        <figure>
+          <img src="" alt="">
+          <figcaption>
+              <h2 class="product-name">Product Name</h2>
+              <p class="product-price">$49.99</p>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
 
-  <section>
-    <article>
+    <section>
       <div>
-        <p>Whats new?</p>
+        <img src="../imgs/homepage/horizontal-shot-adult-girl-jeans-overalls-kissing-cute-puppy-while-raising-it-air-young-girl-being-love-with-her-dog-clothed-trendy-jumper-display-affection 3.png" alt="">
       </div>
-      <div>
-        <h3>Take A Look At Some Of Our Pets</h3>
-        <a href="">View more <img src="../imgs/icons/arrow.svg" alt="arrow pointing right"></a>
-      </div>
-    </article>
 
-    <article>
+      <article>
+        <h4>One More Friend <br> <span>Thousands More Fun!</span></h4>
+        <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+
+        <div>
+          <button aria-label="View Introduction">View Intro <img src="../imgs/icons/Play_Circle.svg" alt="Play icon"></button>
+        </div>
+        <div>
+          <button>Explore Now</button>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <div>
+          <p>Hard to choose right products for your pets?</p>
+        </div>
+        <div>
+          <h4>Our Products</h4>
+          <a href="">View more <img src="../imgs/icons/arrow.svg" alt="arrow pointing right"></a>
+        </div>
+      </article>
+      <article>
+        <figure>
+          <img src="" alt="">
+          <figcaption>
+              <h2 class="product-name">Product Name</h2>
+              <p class="product-price">$49.99</p>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <div>
+          <p>Hard to choose right products for pets?</p>
+        </div>
+        <div>
+          <h4>Our Products</h4>
+          <a href="">View more <img src="../imgs/icons/arrow.svg" alt="arrow pointing right"></a>
+        </div>
+      </article>
       <figure>
-        <h1> ---- cards here ----</h1>
+        <img src="" alt="">
+        <figcaption>
+            <h2 class="product-name">Product Name</h2>
+            <p class="product-price">$49.99</p>
+        </figcaption>
       </figure>
-    </article>
-  </section>
+    </section>
+
+    <section>
+      <article>
+        <div>
+          <h4>proud to be part of <strong> Pet Sellers</strong></h4>
+          <a href="">View all our sellers <img src="../imgs/icons/arrow.svg" alt="arrow pointing right"></a>
+        </div>
+      </article>
+
+      <article>
+        <img src="../imgs/sellers/sheba.png" alt="">
+        <img src="../imgs/sellers/whiskas.png" alt="">
+        <img src="../imgs/sellers/bakers.png" alt="">
+        <img src="../imgs/sellers/felix.png" alt="">
+        <img src="../imgs/sellers/good-boy.png" alt="">
+        <img src="../imgs/sellers/butchers.png" alt="">
+        <img src="../imgs/sellers/pedigree.png" alt="">
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h4>Adoption <img src="../imgs/icons/fontisto_paw.svg" alt=""><br> <span>We Need Help. So Do They.</span></h4>
+        <p>Adopt a pet and give it a home,
+          it will be love you back unconditionally.</p>
+        <div>
+          <button>Explore Now</button>
+        </div>
+        <div>
+          <button aria-label="View Introduction">View Intro <img src="../imgs/icons/Play_Circle.svg" alt="Play icon"></button>
+        </div>
+
+      </article>
+      <div>
+        <img src="../imgs/homepage/pngegg-1.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <article>
+        <div>
+          <p>You already know?</p>
+          <h4>Useful Pet Knowledge</h4>
+        </div>
+        <div>
+          <img src="../imgs/icons/arrow.svg" alt="arrow pointing right">
+          <img src="../imgs/icons/arrow.svg" alt="arrow pointing right">
+        </div>
+      </article>
+      <article>
+        <figure>
+          <img src="" alt="">
+          <figcaption>
+              <h2 class="product-name">Product Name</h2>
+              <p class="product-price">$49.99</p>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section>
+      <h2>Big Summer Event</h2>
+      <div><p>000</p> <p>DAYS</p></div>
+      <div><p>000</p> <p>HOURS</p></div>
+      <div><p>000</p> <p>MINUTES</p></div>
+      <div><p>000</p> <p>SECONDS</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+      <form action="#">
+        <h3>Register now so you don't miss our programs</h3>
+        <div>
+          <input type="email">
+          <input type="submit" value="Subscribe Now">
+        </div>
+      </form>
+    </section>
+    <nav>
+      <div>
+        <a href="">Home</a>
+        <a href="">Category</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </div>
+      <div>
+        <img src="../imgs/icons/media/Facebook-Negative.svg" alt="">
+        <img src="../imgs/icons/media/Twitter-Negative.svg" alt="">
+        <img src="../imgs/icons/media/Instagram-Negative.svg" alt="">
+        <img src="../imgs/icons/media/YouTube-Negative.png" alt="">
+      </div>
+    </nav>
+
+    <aside>
+      <div><p>&#169 2022 Monito. All rights reserved</p></div>
+      <div><img src="../imgs/icons/Frame.svg" alt=""></div>
+      <div><a href="#">Terms of Service</a></div>
+      <div><a href="#">Privacy</a></div>
+    </aside>
+  </footer>
+
 </body>
 </html>
