@@ -174,7 +174,15 @@ export const petFacts = [
   },  {
     imgUrl:'../imgs/facts/diet.png',
     header:'GENERATED',
-    fact:'sefjdlsk;fdj;sgfkjsdf;lkgdns;lg;dsgkmsklfgd;gmnfskjbgcmz.gnbjfsk;xzngjdfsk;znv/l',
+    fact:'GENERATED',
+  },  {
+    imgUrl:'../imgs/facts/diet.png',
+    header:'GENERATED',
+    fact:'GENERATED',
+  },  {
+    imgUrl:'../imgs/facts/diet.png',
+    header:'GENERATED',
+    fact:'GENERATED',
   },
 ]
 

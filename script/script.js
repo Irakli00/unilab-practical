@@ -78,24 +78,49 @@ const productsEl = document.querySelector('.product-cards-js')
 productsEl.insertAdjacentHTML('beforeend', generateProductsHtml(products))
 
 
-const generateFactsHTML= function(cards){
-  let html = ``;
-
-  cards.slice(0,3).forEach(el => {
+const generateFactsHTML = function(cards) {
+  let html = '';
+  cards.forEach(el => {
     html += `
-        <div class="fact-card">
-          <img src="${el.imgUrl}" alt="">
-          <div>
-            <aside>
-              <p>Pet knowledge</p>
-            </aside>
-            <h4>${el.header}</h4>
-            <p>${el.fact}</p>
-          </div>
+      <div class="fact-card">
+        <img src="${el.imgUrl}" alt="">
+        <div>
+          <aside>
+            <p>Pet knowledge</p>
+          </aside>
+          <h4>${el.header}</h4>
+          <p>${el.fact}</p>
         </div>
-    `
+      </div>
+    `;
   });
-  return html; 
+  return html;
 }
-const factsEl = document.querySelector('.fact-cards-js')
-factsEl.insertAdjacentHTML('beforeend',generateFactsHTML(petFacts))
+
+const factsEl = document.querySelector('.fact-cards-js');
+const leftBtn = document.querySelector('.left-btn');
+const rightBtn = document.querySelector('.right-btn');
+let currentPage = 0;
+const cardsPerPage = 3;
+
+const displayFactsPage = function(page) {
+  const start = page * cardsPerPage;
+  const end = start + cardsPerPage;
+  const paginatedCards = petFacts.slice(start, end);
+
+  factsEl.innerHTML = '';
+  factsEl.insertAdjacentHTML('beforeend', generateFactsHTML(paginatedCards));
+}
+
+
+leftBtn.addEventListener('click', function() {
+  currentPage = (currentPage > 0) ? currentPage - 1 : Math.ceil(petFacts.length / cardsPerPage) - 1;
+  displayFactsPage(currentPage);
+});
+rightBtn.addEventListener('click', function() {
+  currentPage = (currentPage + 1) % Math.ceil(petFacts.length / cardsPerPage);
+  displayFactsPage(currentPage);
+});
+
+// init
+displayFactsPage(currentPage);
