@@ -1108,3 +1108,76 @@ footer aside p, footer aside a {
   gap: 12px;
   max-height: 340px;
 }
+
+#log-in--main{
+  margin: 103px auto;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.with-google{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #CCD1D2;
+  border-radius: 4px;
+  padding: 10px 70px;
+
+  font-size: 1.4rem;
+}
+
+.or{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: var(--primary-blue);
+  font-size: 1.2rem;
+}
+
+.or> div:first-child, .or>div:last-child{
+  height: 1px;
+  width: 100%;
+  background-color: #CCD1D2;
+}
+
+#log-in--main form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#log-in--main form input{
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #CCD1D2;
+  padding: 10px 15px;
+}
+
+#log-in--main form label{
+  color: var(--primary-blue);
+  display: block;
+  font-size: 1.4rem;
+}
+#log-in--main form a:last-of-type{
+  text-align: end;
+  margin-top: 16px;
+  font-size: 1.4rem;
+}
+
+#log-in--main button{
+  cursor: pointer;
+  background-color: var(--primary-blue);
+  color: var(--neutral-white);
+  border-radius: 4px;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 24px;
+}
+
+#log-in--main> a:last-of-type{
+  text-align: center;
+  font-size: 1.4rem;
+}
