@@ -16,17 +16,24 @@ import {dogs, products,petFacts, eventDate} from '../script/db.js'
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
     // Display the result in the format: "D days HH:MM:SS"
-    document.getElementById("days").innerHTML = `${days}`;
-    document.getElementById("hours").innerHTML = `${hours}`;
-    document.getElementById("minutes").innerHTML = `${minutes}`;
-    document.getElementById("seconds").innerHTML = `${seconds}`;
+    const daysEl = document.getElementById("days")
+    const hoursEl = document.getElementById("hours")
+    const minutesEl = document.getElementById("minutes")
+    const secondsEl = document.getElementById("seconds")
+
+    if(daysEl && hoursEl && minutesEl && secondsEl){
+      daysEl.innerHTML = `${days}`;
+      hoursEl.innerHTML = `${hours}`;
+      minutesEl.innerHTML = `${minutes}`;
+      secondsEl.innerHTML = `${seconds}`;
+    }
   }, 1000); // Update every 1 second
 })(eventDate)
 
-const generateDogsHTML = function(cards) {
+export const generateDogsHTML = function(cards, cardsToGenerate=cards.length) {  //all cards or only passed ammount
   let html = ``;
 
-  cards.forEach(el => {
+  cards.slice(0,cardsToGenerate).forEach(el => {
     html += `
      <figure class="card">
       <img src="${el.imgUrl}" alt="${el.breed}">
@@ -44,8 +51,12 @@ const generateDogsHTML = function(cards) {
 
   return html; 
 };
+
 const dogsEl = document.querySelector('.dogs-cards-js')
-dogsEl.insertAdjacentHTML('beforeend',generateDogsHTML(dogs))
+if(dogsEl){
+  dogsEl.insertAdjacentHTML('beforeend',generateDogsHTML(dogs,8))
+}
+
 
 const generateProductsHtml = function(cards){
   let html = ``;
@@ -75,7 +86,9 @@ const generateProductsHtml = function(cards){
   return html; 
 }
 const productsEl = document.querySelector('.product-cards-js')
-productsEl.insertAdjacentHTML('beforeend', generateProductsHtml(products))
+if(productsEl){
+  productsEl.insertAdjacentHTML('beforeend', generateProductsHtml(products))
+}
 
 
 const generateFactsHTML = function(cards) {
@@ -108,19 +121,23 @@ const displayFactsPage = function(page) {
   const end = start + cardsPerPage;
   const paginatedCards = petFacts.slice(start, end);
 
-  factsEl.innerHTML = '';
-  factsEl.insertAdjacentHTML('beforeend', generateFactsHTML(paginatedCards));
+  if(factsEl){
+    factsEl.innerHTML = '';
+    factsEl.insertAdjacentHTML('beforeend', generateFactsHTML(paginatedCards));
+  }
 }
 
+if(leftBtn && rightBtn){
 
-leftBtn.addEventListener('click', function() {
-  currentPage = (currentPage > 0) ? currentPage - 1 : Math.ceil(petFacts.length / cardsPerPage) - 1;
-  displayFactsPage(currentPage);
-});
-rightBtn.addEventListener('click', function() {
-  currentPage = (currentPage + 1) % Math.ceil(petFacts.length / cardsPerPage);
-  displayFactsPage(currentPage);
-});
-
-// init
+  leftBtn.addEventListener('click', function() {
+    currentPage = (currentPage > 0) ? currentPage - 1 : Math.ceil(petFacts.length / cardsPerPage) - 1;
+    displayFactsPage(currentPage);
+  });
+  rightBtn.addEventListener('click', function() {
+    currentPage = (currentPage + 1) % Math.ceil(petFacts.length / cardsPerPage);
+    displayFactsPage(currentPage);
+  });
+}
+  
+  // init
 displayFactsPage(currentPage);

@@ -6,9 +6,11 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="../css/style.css">
+
+  <script type="module" src="../script/filter-script.js"></script>
 </head>
 <body>
-  <nav class="nav--main-page">
+  <nav class="nav">
     <div class="nav--links">
       <img src="../imgs/icons/Frame.svg" alt="monito logo">
       <a href="">Home</a>
@@ -28,7 +30,118 @@
   </nav>
 
   <main>
-    
+    <section id="filter--hero">
+      <aside>
+        <a href="../html/index.html">Home</a> <img src="../imgs/icons/arrow.svg" alt="arrow pointing rigth"> <a href="#">Dog</a>
+      </aside>
+      <article>
+        <img src="../imgs/filter/group-portrait-adorable-puppies.png" alt="puppies">
+
+        <div id="one-more--text" class="one-more--filter">
+          <h4>One More Friend <br> <span>Thousands More Fun!</span></h4>
+          <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+
+          <div class="view-explore view-explore--filter">
+            <div>
+              <button class="intro-btn" aria-label="View Introduction">View Intro <img src="../imgs/icons/play-icon--white.svg" alt="Play icon"></button>
+            </div>
+            <div>
+              <button class="explore-btn" aria-label="Explore more">Explore Now</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="filter--filter">
+      <div id="filter-form">
+        <h3>Filter</h3>
+        <form action="">
+          <fieldset>
+              <legend>Gender</legend>
+              <label>
+                  <input type="checkbox" name="gender" value="male"> Male
+              </label>
+              <label>
+                  <input type="checkbox" name="gender" value="female"> Female
+              </label>
+          </fieldset>
+
+          <fieldset>
+              <legend>Color</legend>
+              <label>
+                  <input type="checkbox" name="color" value="black"> <img src="../imgs/icons/colors/red-label.svg" alt="red color"> Red
+              </label>
+              <label>
+                  <input type="checkbox" name="color" value="apricot">  <img src="../imgs/icons/colors/apricot-label.svg" alt="apricot color"> Apricot
+              </label>
+              <label>
+                  <input type="checkbox" name="color" value="black"> <img src="../imgs/icons/colors/black-label.svg" alt="black color"> Black
+              </label>
+              <label>
+                  <input type="checkbox" name="color" value="blackandwhite">  <img src="../imgs/icons/colors/black_white-label.svg" alt="black and color"> Black & White
+              </label>
+              <label>
+                  <input type="checkbox" name="color" value="silver"> <img src="../imgs/icons/colors/silver-label.svg" alt="select-language color"> Silver
+              </label>            
+              <label>
+                  <input type="checkbox" name="color" value="Tan"> <img src="../imgs/icons/colors/tan-label.svg" alt="tan color"> Tan
+              </label>
+          </fieldset>
+
+          <fieldset id="price-fieldset">
+              <legend>Price</legend>
+              <div>
+                <input type="number" id="min-price" name="price" min="0" step="0.01" placeholder="Min">           
+                
+                <input type="number" id="max-price" name="price" min="0" step="0.01" placeholder="Max">
+              </div>
+          </fieldset>
+
+          <fieldset>
+              <legend>Breed</legend>
+              <label>
+                  <input type="checkbox" name="breed" value="small"> Small
+              </label>
+              <label>
+                  <input type="checkbox" name="breed" value="medium"> Medium
+              </label>
+              <label>
+                  <input type="checkbox" name="breed" value="large"> Large
+              </label>
+          </fieldset>            
+        </form>
+      </div>
+
+      <div id="filtered-cards">
+        <div id="f-c--header">
+          <div>
+            <h3>Small Dog</h3>
+            <aside><p>62 puppies</p></aside>
+          </div>
+          <div>
+            <label for="sortby">Sort by: </label>
+            <select id="sortby">
+              <option value="popular">Popular</option>
+              <option value="new">New</option>
+            </select>
+          </div>
+        </div>
+        <div id="f-c--cards">
+          <!-- <figure class="card">
+            <img src="../imgs/facts/diet.png" alt="${el.breed}">
+            <figcaption>
+                <h2 class="dog-descr">${el.id} - ${el.breed}</h2>
+                <div>
+                  <p class="dog-details">Gene:<strong>${el.gene}</strong></p>
+                  <p>Age: <strong>${el.ageMonths} months</strong></p>
+                </div>
+                <p class="price">${el.price} VND</p>
+            </figcaption>
+           </figure> -->
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>

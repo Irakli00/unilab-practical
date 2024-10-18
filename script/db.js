@@ -3,66 +3,600 @@ export const dogs =[
   id:'MO231',
   imgUrl:'../script/db_dog_imgs/pomerenianwhite.png',
   breed:'Pomeranian White',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Male',
   price:6900000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
   id:'MO502',
   imgUrl:'../script/db_dog_imgs/poodlewhite.png',
   breed:'Poodle Tiny Yellow',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Female',
   price:3900000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
   id:'MO102',
   imgUrl:'../script/db_dog_imgs/poodleseoia.png',
   breed:'Poodle Tiny Sepia',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Male',
   price:4000000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
   id:'MO512',
   imgUrl:'../script/db_dog_imgs/malamute.png',
   breed:'Alaskan Malamute Grey',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Male',
   price:8900000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
   id:'MO231',
   imgUrl:'../script/db_dog_imgs/pembrokecorgicream.png',
   breed:'Pembroke Corgi Cream',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Male',
   price:7900000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
   id:'MO502',
   imgUrl:'../script/db_dog_imgs/pembrokecorgi.png',
   breed:'Pembroke Corgi Tricolor',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Female',
   price:9000000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
-    id:'MO231',
-    imgUrl:'../script/db_dog_imgs/pomerenianwhite-2.png',
-    breed:'Pomeranian White',
-    ageMonths:'02',
-    gene:'Female',
-    price:6500000,
-    currency:'VND'},
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite-2.png',
+  breed:'Pomeranian White',
+  ageMonths:2,
+  gene:'Female',
+  price:6500000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
   {
   id:'MO512',
   imgUrl:'../script/db_dog_imgs/pomerenianwhite.png',
   breed:'Poodle Tiny Dairy Cow',
-  ageMonths:'02',
+  ageMonths:2,
   gene:'Male',
   price:5000000,
-  currency:'VND'},
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},  {
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite.png',
+  breed:'Pomeranian White',
+  ageMonths:2,
+  gene:'Male',
+  price:6900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO502',
+  imgUrl:'../script/db_dog_imgs/poodlewhite.png',
+  breed:'Poodle Tiny Yellow',
+  ageMonths:2,
+  gene:'Female',
+  price:3900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO102',
+  imgUrl:'../script/db_dog_imgs/poodleseoia.png',
+  breed:'Poodle Tiny Sepia',
+  ageMonths:2,
+  gene:'Male',
+  price:4000000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO512',
+  imgUrl:'../script/db_dog_imgs/malamute.png',
+  breed:'Alaskan Malamute Grey',
+  ageMonths:2,
+  gene:'Male',
+  price:8900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pembrokecorgicream.png',
+  breed:'Pembroke Corgi Cream',
+  ageMonths:2,
+  gene:'Male',
+  price:7900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO502',
+  imgUrl:'../script/db_dog_imgs/pembrokecorgi.png',
+  breed:'Pembroke Corgi Tricolor',
+  ageMonths:2,
+  gene:'Female',
+  price:9000000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite-2.png',
+  breed:'Pomeranian White',
+  ageMonths:2,
+  gene:'Female',
+  price:6500000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO512',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite.png',
+  breed:'Poodle Tiny Dairy Cow',
+  ageMonths:2,
+  gene:'Male',
+  price:5000000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},  {
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite.png',
+  breed:'Pomeranian White',
+  ageMonths:2,
+  gene:'Male',
+  price:6900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO502',
+  imgUrl:'../script/db_dog_imgs/poodlewhite.png',
+  breed:'Poodle Tiny Yellow',
+  ageMonths:2,
+  gene:'Female',
+  price:3900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO102',
+  imgUrl:'../script/db_dog_imgs/poodleseoia.png',
+  breed:'Poodle Tiny Sepia',
+  ageMonths:2,
+  gene:'Male',
+  price:4000000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO512',
+  imgUrl:'../script/db_dog_imgs/malamute.png',
+  breed:'Alaskan Malamute Grey',
+  ageMonths:2,
+  gene:'Male',
+  price:8900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pembrokecorgicream.png',
+  breed:'Pembroke Corgi Cream',
+  ageMonths:2,
+  gene:'Male',
+  price:7900000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO502',
+  imgUrl:'../script/db_dog_imgs/pembrokecorgi.png',
+  breed:'Pembroke Corgi Tricolor',
+  ageMonths:2,
+  gene:'Female',
+  price:9000000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO231',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite-2.png',
+  breed:'Pomeranian White',
+  ageMonths:2,
+  gene:'Female',
+  price:6500000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
+  {
+  id:'MO512',
+  imgUrl:'../script/db_dog_imgs/pomerenianwhite.png',
+  breed:'Poodle Tiny Dairy Cow',
+  ageMonths:2,
+  gene:'Male',
+  price:5000000,
+  currency:'VND',
+  sku:'#1000078',
+  size:'Small',
+  color:'White',
+  vaccinated: true,
+  dewormed:true,
+  cert:{
+    b:true,
+    detail:'MKA'
+  },
+  microchip:true,
+  location:'Vietnam',
+  published:'12-Oct-2022',
+  additionalDetails:`Pure breed Shih Tzu.
+  Good body structure.
+  With MKA cert and Microchip.
+  Father from champion lineage.`
+},
 ]
 
 export const products=[
