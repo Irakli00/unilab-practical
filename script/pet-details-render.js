@@ -19,17 +19,17 @@ const html =`
         <img src="${selectedDogData.imgUrl}" alt="${selectedDogData.breed}">
         <div id="details--bonuses">
           <article>
-            <img src="../imgs/icons/dogheart.svg" alt="">
+            <img src="../imgs/icons/others/dogheart.svg" alt="">
             <p>100% health guarantee for pets</p>
           </article>
           <article>
-            <img src="../imgs/icons/petinprofile.svg" alt="">
+            <img src="../imgs/icons/others/petinprofile.svg" alt="">
             <p>100% guarantee of pet identification</p>
           </article>
         </div>
         <div id="details--share">
           <div>
-            <img src="../imgs/icons/Share_Android.svg" alt="">
+            <img src="../imgs/icons/others/Share_Android.svg" alt="">
             <p>Share:</p>
           </div>
 
@@ -43,11 +43,11 @@ const html =`
       <div id="details-col">
         <div class="map">
           <a href="./index.html">Home</a>
-          <img src="../imgs/icons/arrow.svg" alt="">
+          <img src="../imgs/icons/others/arrow.svg" alt="">
           <a href="./pets-category.html">Dog</a>
-          <img src="../imgs/icons/arrow.svg" alt="">
+          <img src="../imgs/icons/others/arrow.svg" alt="">
           <a href="./pets-category.html">Large Dog</a>
-          <img src="../imgs/icons/arrow.svg" alt="">
+          <img src="../imgs/icons/others/arrow.svg" alt="">
           <a href="#">${selectedDogData.breed}</a>
         </div>
         <article>
@@ -56,7 +56,7 @@ const html =`
           <strong>${selectedDogData.price} VND</strong>
           <div class="contact">
             <a href="./contact-us.html">Contact us</a>
-            <a href=""><img src="../imgs/icons/chat.svg" alt="">Chat with Monito</a>
+            <a href=""><img src="../imgs/icons/others.chat.svg" alt="">Chat with Monito</a>
           </div>
           <div>
             <article  id="details--values">

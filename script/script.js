@@ -75,7 +75,7 @@ const generateProductsHtml = function(cards){
 
             ${el.bonus? `
             <div class="card-bonus">
-              <img src="../imgs/icons/gift.svg" alt="">
+              <img src="../imgs/icons/others/gift.svg" alt="">
               <p class="card-bonus--txt">${el.bonus.value}</p>
             </div>`:''}
           </figcaption>

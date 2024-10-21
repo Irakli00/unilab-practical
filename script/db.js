@@ -720,4 +720,4 @@ export const petFacts = [
   },
 ]
 
-export const eventDate = new Date(2024, 9, 22)
+export const eventDate = new Date(2024, 9, 26)

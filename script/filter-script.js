@@ -12,14 +12,14 @@ if(element){
 
   const pages =`
     <div class="pages" id="category--pages">
-    <div><img src="../imgs/icons/arrow-left.svg" alt=""></div>
+    <div><img src="../imgs/icons/others/arrow-left.svg" alt=""></div>
     <div><p>1</p></div>
     <div><p>2</p></div>
     <div><p>3</p></div>
     <div><p>4</p></div>
     <div><p>...</p></div>
     <div><p>${Math.ceil(dogs.length/2)}</p></div>
-    <div><img src="../imgs/icons/arrow-right.svg" alt=""></div>
+    <div><img src="../imgs/icons/others/arrow-right.svg" alt=""></div>
   </div>
   `//vitom 2 elementia tito gverdze
 

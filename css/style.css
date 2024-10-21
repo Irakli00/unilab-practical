@@ -213,6 +213,7 @@ a{
 .card-bonus--txt{
   color: var(--primary-blue-neutral) !important;
   font-family: var(--bold);
+  margin-top: 4px;
 }
 
 
