@@ -1,7 +1,7 @@
 export const dogs =[
   {
   id:'MO231',
-  imgUrl:'./script/db_dog_imgs/pomerenianwhite.png',
+  imgUrl:'/script/db_dog_imgs/pomerenianwhite.png',
   breed:'Pomeranian White',
   ageMonths:2,
   gene:'Male',
