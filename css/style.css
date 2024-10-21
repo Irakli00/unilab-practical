@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
-                
+/* @import url('https://fonts.cdnfonts.com/css/gilroy-bold'); */
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880');
 
 :root{
   --primary-blue: #003459; 
@@ -18,7 +18,19 @@
 
   --medium-size-font :1.6rem;
   --bigger-size-font:2.4rem;
+
+  --bold:'Gilroy-Bold', 'sans-serif';
+  --heavy:'Gilroy-Heavy', 'sans-serif';
+  --light:'Gilroy-Light', sans-serif;
+  --medium:'Gilroy-Medium', sans-serif;
+  --regular:'Gilroy-Regular', sans-serif;
 }
+
+/* font-family: 'Gilroy-Bold', sans-serif;
+                                                                    font-family: 'Gilroy-Heavy', sans-serif;
+                                                                    font-family: 'Gilroy-Light', sans-serif;
+                                                                    font-family: 'Gilroy-Medium', sans-serif;
+                                                                    font-family: 'Gilroy-Regular', sans-serif; */
 
 html{
   font-size: 62.5%;
@@ -36,7 +48,7 @@ body{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'gilroy-bold';
+  font-family: 'Gilroy-Bold';
 }
 
 /* globals */
@@ -1208,13 +1220,86 @@ footer aside p, footer aside a {
   font-size: 1.4rem;
 }
 
-/* #log-in--main.sign-in--main,
-#log-in--main.reset--main{
-  margin-top: 315px;
-}  */
 
 #log-in--main.reset--main p{
   color: var(--primary-blue-lighter);
   font-size: 1.4rem;
   line-height: 2;
+}
+
+#contact-us--section{
+  display: flex;
+  margin: 100px 130px;
+}
+
+#contact-us--section article{
+  /* padding: 50px 50px 50px 150px; */
+  padding: 50px 50px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+#contact-us--section article> div h1{
+  color: #000;
+  font-size: 5.4rem;
+  margin-bottom: 20px;
+}
+#contact-us--section article> div h1 span{
+  color: #003459;
+}
+#contact-us--section article> div p{
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+#contact-us--section form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#contact-us--section form input, select{
+  padding: 13px 20px;
+  border: 1px solid #e0e0e0;
+}
+
+#contact-us--section form input::placeholder{
+  color: #828282;
+}
+
+#contact-us--section form input, select{
+  background-color: transparent;
+  /* font:'gilroy-bold'; */
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+
+#contact-us--section form input[type="submit"]{
+ background-color: var(--primary-blue);
+ color: var(--neutral-white); 
+ font-family: 'Gilroy-Bold', sans-serif;
+ cursor: pointer;
+ padding: 15px;
+ font-size: var(--medium-size-font);
+}
+
+#contact-us--section nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact-us--section nav > div{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.3rem;
+  line-height: 20px;
+}
+
+
+#contact-us--section nav > div h5{
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+#contact-us--section nav a{
+  font-family: var(--regular);
 }
