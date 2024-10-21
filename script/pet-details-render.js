@@ -16,7 +16,7 @@ console.log(selectedDogData)
 
 const html =`
      <div id="img-col">
-        <img src="${selectedDogData.imgUrl}" alt="">
+        <img src="${selectedDogData.imgUrl}" alt="${selectedDogData.breed}">
         <div id="details--bonuses">
           <article>
             <img src="../imgs/icons/dogheart.svg" alt="">
@@ -94,3 +94,27 @@ const html =`
 if(element){
   element.insertAdjacentHTML('beforeend',html)
 }
+
+const scrollContainer = document.querySelector('.customer--images');
+const leftArrow = document.querySelector('.arrow-left');
+const rightArrow = document.querySelector('.arrow-right');
+
+const scrollAmount = 600; 
+
+// Scroll left
+leftArrow.addEventListener('click', () => {
+  console.log('Scrolling left');
+  scrollContainer.scrollBy({
+    left: -scrollAmount, 
+    behavior: 'smooth'   
+  });
+});
+
+// Scroll right
+rightArrow.addEventListener('click', () => {
+  console.log('Scrolling right');
+  scrollContainer.scrollBy({
+    left: scrollAmount,  
+    behavior: 'smooth'   
+  });
+});
