@@ -1174,8 +1174,21 @@ footer aside p, footer aside a {
   gap: 18px;
 }
 #details-col > article span{
-  color: #CCD1D2;
+  color: #667479;
+  font-family: var(--light);
+  font-size: 1.4rem;
 }
+
+#details-col >article h2{
+  color: #000;
+  font-size: 2.4rem;
+}
+
+#details-col >article strong{
+  color: var(--primary-blue-darker);
+  font-size: 2rem;
+}
+
 
 .contact {
   display: flex;
