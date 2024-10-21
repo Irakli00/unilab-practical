@@ -62,6 +62,7 @@ const generateProductsHtml = function(cards){
   let html = ``;
 
   cards.forEach(el => {
+    console.log(el.imgUrl)
     html += `
         <figure class="card">
           <img src="${el.imgUrl}" alt="${el.desc}">
@@ -75,7 +76,7 @@ const generateProductsHtml = function(cards){
 
             ${el.bonus? `
             <div class="card-bonus">
-              <img src="../imgs/icons/others/gift.svg" alt="">
+              <img src="./imgs/icons/others/gift.svg" alt="">
               <p class="card-bonus--txt">${el.bonus.value}</p>
             </div>`:''}
           </figcaption>
